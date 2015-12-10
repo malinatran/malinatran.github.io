@@ -135,6 +135,15 @@ body {
   margin-right: 10px;
 }
 
+#single-p {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 13px;
+  font-weight: 300;
+  margin: 10px auto;
+  text-align: center;
+  width: 390px;
+}
+
 img {
   border: 1px solid black;
   display: inline-block;
