@@ -135,7 +135,7 @@ body {
   margin-right: 10px;
 }
 
-#single-p {
+.text {
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 13px;
   font-weight: 300;
@@ -166,5 +166,15 @@ footer {
   }
   .box {
     width: 90%;
+  }
+}
+
+@media (max-width: 640px) {
+  .box {
+    padding-left: 15%;
+    text-align: left;
+  }
+  .text {
+    margin-left: 0;
   }
 }
