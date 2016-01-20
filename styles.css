@@ -113,6 +113,10 @@ body {
   background-color: #ffff99;
 }
 
+#peace-sign {
+  font-size: 18px;
+}
+
 #portfolio {
   display: inline-block;
   width: 800px;
