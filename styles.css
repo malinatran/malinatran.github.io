@@ -155,6 +155,11 @@ img {
   margin-right: 10px;
 }
 
+.code-link {
+  font-style: italic;
+  text-decoration: none;
+}
+
 footer {
   clear: both;
   font-family: 'Source Sans Pro', sans-serif;
