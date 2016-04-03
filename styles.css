@@ -4,6 +4,7 @@ html {
 
 body {
   border: 0;
+  overflow-x: hidden;
 }
 
 #body-container {
@@ -98,7 +99,7 @@ body {
   font-weight: 300;
   line-height: 1.5em;
   margin: 30px auto;
-  padding-bottom: 0;
+  padding: 0 20px;
   text-align: left;
   max-width: 800px;
 }
@@ -130,7 +131,6 @@ body {
 }
 
 .box {
-  float: left;
   display: inline-block;
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 13px;
@@ -164,11 +164,11 @@ footer {
   text-align: center;
 }
 
-@media (max-width: 800px) {
+@media (min-width: 816px) {
   #about {
-    width: 80%;
+    padding: 0;
   }
   .box {
-    width: 100%;
+    float: left;
   }
 }
