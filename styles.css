@@ -155,9 +155,15 @@ img {
   margin-right: 10px;
 }
 
-.code-link {
+.code-link, .code-link:visited {
+  border-bottom: 2px solid #ccffff;
+  color: black;
   font-style: italic;
   text-decoration: none;
+}
+
+.code-link:hover {
+  background-color: #ccffff;
 }
 
 footer {
