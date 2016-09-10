@@ -1,0 +1,300 @@
+/* Global */
+
+@font-face {
+  font-family: Malina;
+  src: url('../assets/Malina-Regular.otf') format('opentype');
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+a:hover, a:visited, a:link, a:active {
+  text-decoration: none;
+}
+
+#wrapper {
+  display: block;
+  min-height: 100%;
+  position: relative;
+}
+
+.col-centered {
+  float: none;
+  margin: 0 auto;
+}
+
+.active {
+  content: '____';
+  font-family: 'Malina';
+}
+
+#nav-container {
+  list-style: none;
+}
+
+#nav-container li {
+  display: inline-block;
+  margin: 10px;
+}
+
+.nav-links {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.nav-links::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 3px;
+  background: #cc0066;
+  transition: width .3s;
+}
+
+.nav-links:hover::after {
+  width: 100%;
+}
+
+.nav-links a {
+  color: black;
+}
+
+.nav-links a:hover {
+  color: #cc0066;
+  padding: 2.5px 0;
+  text-decoration: none;
+}
+
+#name {
+  background: -webkit-linear-gradient(#00394c, #00bfff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: 'Malina';
+  font-size: 140px;
+}
+
+#heart {
+  color: #cc0066;
+}
+
+.headline {
+  border-bottom: 5px solid #5CD6D6;
+  clear: both;
+  color: black;
+  display: inline-block;
+  font-family: 'Oswald', sans-serif;
+  margin: 10px auto;
+  text-align: center;
+  padding-bottom: 5px;
+}
+
+#about, #email, #portfolio-about {
+  color: black;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1.5em;
+  padding-bottom: 20px;
+  text-align: left;
+}
+
+#about .spotlighted {
+  font-color: black;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 400;
+}
+
+#about a, #portfolio-about a {
+  border-bottom: 2px solid #ffff99;
+  color: black;
+}
+
+#about a:hover, #portfolio-about a:hover {
+  background-color: #ffff99;
+  text-decoration: none;
+}
+
+.social-media-icons {
+  text-align: center;
+}
+
+.social-media-icons .fa {
+  font-size: 24px;
+  padding: 10px;
+  color: #249fcd;
+}
+
+.social-media-icons .fa:hover {
+  color: #196f8f;
+}
+
+.main-layout {
+  clear: both;
+  margin: auto;
+  max-width: 800px;
+  vertical-align: top;
+}
+
+/* Portrait */
+
+#portrait {
+  background-image: url('../assets/malina-tran.jpg');
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-left: 5px solid gold;
+  border-top: 5px solid gold;
+  height: 450px;
+  width: auto;
+}
+
+#circular-portrait {
+  background-image: url('../assets/malina-tran-thumbnail.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 5px solid gold;
+  border-radius: 50%;
+  height: 125px;
+  margin-bottom: 30px;
+  width: 125px;
+}
+
+.fa-envelope-o {
+  padding-right: 10px;
+}
+
+#echo-park {
+  background-image: url('../assets/echo-park.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-left: 5px solid gold;
+  border-top: 5px solid gold;
+  height: 400px;
+  width: 100%;
+}
+
+.echo-park-text {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 9px;
+  font-weight: 300;
+  margin: 10px auto;
+  text-align: right;
+}
+
+/* Portfolio */
+
+.box {
+  display: inline-block;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 13px;
+  font-weight: 300;
+  padding-bottom: 20px;
+}
+
+.app-image {
+  margin-left: 10px;
+}
+
+.text {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 13px;
+  font-weight: 300;
+  margin: 10px auto;
+  text-align: center;
+  width: 390px;
+}
+
+img {
+  border: 1px solid black;
+  display: inline-block;
+  height: 200px;
+  margin-right: 10px;
+}
+
+.code-link, .code-link:visited {
+  border-bottom: 2px solid #ccffff;
+  color: black;
+  font-style: italic;
+}
+
+.code-link:hover {
+  background-color: #ccffff;
+}
+
+#portfolio-page {
+  display: flex;
+}
+
+#portfolio {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+}
+
+#portfolio-text {
+  color: black;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 300;
+  line-height: 1.5em;
+  text-align: left;
+}
+
+#portfolio-link a {
+  color: #551a8b;
+  border-top: 3px solid #ccbadc;
+  padding-top: 5px;
+}
+
+.footer-text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: 100px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.footer-text {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 12px;
+  font-weight: 300;
+  text-align: center;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+@media (min-width: 544px) {
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
+@media (max-width: 544px) {
+  #name {
+    line-height: 150px;
+  }
+
+  #email {
+    padding-top: 10px;
+    text-align: center;
+  }
+
+  .nav-links {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+  }
+}
