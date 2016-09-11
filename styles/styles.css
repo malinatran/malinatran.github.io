@@ -79,7 +79,7 @@ a:hover, a:visited, a:link, a:active {
   font-size: 140px;
 }
 
-#heart {
+.red {
   color: #cc0066;
 }
 
