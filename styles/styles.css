@@ -48,27 +48,8 @@ a:hover, a:visited, a:link, a:active {
   text-decoration: none;
 }
 
-.nav-links::after {
-  content: '';
-  display: block;
-  width: 0;
-  height: 3px;
-  background: #cc0066;
-  transition: width .3s;
-}
-
-.nav-links:hover::after {
-  width: 100%;
-}
-
 .nav-links a {
   color: black;
-}
-
-.nav-links a:hover {
-  color: #cc0066;
-  padding: 2.5px 0;
-  text-decoration: none;
 }
 
 #name {
@@ -127,11 +108,7 @@ a:hover, a:visited, a:link, a:active {
 .social-media-icons .fa {
   font-size: 24px;
   padding: 10px;
-  color: #249fcd;
-}
-
-.social-media-icons .fa:hover {
-  color: #196f8f;
+  color: #cc0066;
 }
 
 .main-layout {
@@ -279,6 +256,34 @@ img {
     display: flex;
     align-items: center;
     justify-content: space-between;
+  }
+
+  .nav-links::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 3px;
+    background: #cc0066;
+    transition: width .3s;
+  }
+
+  .nav-links:hover::after {
+    width: 100%;
+  }
+
+  .nav-links a:hover {
+    color: #cc0066;
+    padding: 2.5px 0;
+    text-decoration: none;
+  }
+
+  .social-media-icons .fa {
+    color: #249fcd;
+  }
+
+  .social-media-icons .fa:hover,
+  .social-media-icons .fa:visited {
+    color: #196f8f;
   }
 }
 
