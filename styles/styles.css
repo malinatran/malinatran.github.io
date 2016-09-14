@@ -248,6 +248,10 @@ img {
   height: 490px;
 }
 
+.email-address {
+  color: black;
+}
+
 .work-footer {
   padding-bottom: 10px;
 }
