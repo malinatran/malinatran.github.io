@@ -15,6 +15,15 @@ a:hover, a:visited, a:link, a:active {
   text-decoration: none;
 }
 
+.footer-text {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 12px;
+  font-weight: 300;
+  text-align: center;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
 #wrapper {
   display: block;
   min-height: 100%;
@@ -24,6 +33,8 @@ a:hover, a:visited, a:link, a:active {
 .col-centered {
   float: none;
   margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .active {
@@ -169,7 +180,9 @@ a:hover, a:visited, a:link, a:active {
 /* Portfolio */
 
 .box {
-  display: inline-block;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 13px;
   font-weight: 300;
@@ -178,6 +191,7 @@ a:hover, a:visited, a:link, a:active {
 
 .app-image {
   margin-left: 10px;
+  max-width: 335px;
 }
 
 .text {
@@ -186,13 +200,12 @@ a:hover, a:visited, a:link, a:active {
   font-weight: 300;
   margin: 10px auto;
   text-align: center;
-  width: 390px;
+  max-width: 350px;
 }
 
 img {
   border: 1px solid black;
   display: inline-block;
-  height: 200px;
   margin-right: 10px;
 }
 
@@ -231,27 +244,19 @@ img {
   padding-top: 5px;
 }
 
-.footer-text-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  width: 100%;
-  height: 100px;
-  position: absolute;
-  bottom: 0;
-  left: 0;
+.contact-container {
+  height: 490px;
 }
 
-.footer-text {
-  font-family: 'Source Sans Pro', sans-serif;
-  font-size: 12px;
-  font-weight: 300;
-  text-align: center;
+.work-footer {
   padding-bottom: 10px;
-  padding-top: 10px;
 }
 
 @media (min-width: 544px) {
+  img {
+    height: 200px;
+  }
+
   .header {
     display: flex;
     align-items: center;
@@ -285,6 +290,34 @@ img {
   .social-media-icons .fa:visited {
     color: #196f8f;
   }
+
+  .text {
+    max-width: 390px;
+  }
+
+  .box {
+    display: inline-block;
+  }
+
+  .app-image {
+    max-width: 390px;
+  }
+
+  .col-centered {
+    padding: 0;
+  }
+
+  .footer-text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
+
 }
 
 @media (max-width: 544px) {
