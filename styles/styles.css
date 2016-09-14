@@ -252,10 +252,6 @@ img {
   color: black;
 }
 
-.work-footer {
-  padding-bottom: 10px;
-}
-
 @media (min-width: 544px) {
   img {
     height: 200px;
@@ -322,6 +318,9 @@ img {
     left: 0;
   }
 
+  .work-footer {
+    padding-bottom: 10px;
+  }
 }
 
 @media (max-width: 544px) {
