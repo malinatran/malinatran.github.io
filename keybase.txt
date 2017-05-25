@@ -1,0 +1,53 @@
+://keybase.io/malina
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://malinatran.com
+  * I am malina (https://keybase.io/malina) on keybase.
+  * I have a public key ASDHOB3FhpEYiRLYDXLp3mNa5U84IvemJOTf-j1GxTGvnAo
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "0120c7381dc58691188912d80d72e9de635ae54f3822f7a624e4dffa3d46c531af9c0a",
+            "host": "keybase.io",
+            "kid": "0120c7381dc58691188912d80d72e9de635ae54f3822f7a624e4dffa3d46c531af9c0a",
+            "uid": "9861176925870d5d9d1211b5732e5719",
+            "username": "malina"
+        },
+        "service": {
+            "hostname": "malinatran.com",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "client": {
+        "name": "keybase.io go client",
+        "version": "1.0.23"
+    },
+    "ctime": 1495681770,
+    "expire_in": 504576000,
+    "merkle_root": {
+        "ctime": 1495681753,
+        "hash": "da7dbcc6738cf4f7487d3168296c7eb35185efd83f89a9dcb5d5bae313a2c030cb86e92b247103def4c390e4555d596ab44463567b6fd109ecb5cf31d652445c",
+        "seqno": 1109034
+    },
+    "prev": "5c5bae046f8457d334b73100a6c2eda7952a2a86ce217c67f80dd4ed3d57747c",
+    "seqno": 5,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgxzgdxYaRGIkS2A1y6d5jWuVPOCL3piTk3/o9RsUxr5wKp3BheWxvYWTFAvR7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTIwYzczODFkYzU4NjkxMTg4OTEyZDgwZDcyZTlkZTYzNWFlNTRmMzgyMmY3YTYyNGU0ZGZmYTNkNDZjNTMxYWY5YzBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwYzczODFkYzU4NjkxMTg4OTEyZDgwZDcyZTlkZTYzNWFlNTRmMzgyMmY3YTYyNGU0ZGZmYTNkNDZjNTMxYWY5YzBhIiwidWlkIjoiOTg2MTE3NjkyNTg3MGQ1ZDlkMTIxMWI1NzMyZTU3MTkiLCJ1c2VybmFtZSI6Im1hbGluYSJ9LCJzZXJ2aWNlIjp7Imhvc3RuYW1lIjoibWFsaW5hdHJhbi5jb20iLCJwcm90b2NvbCI6Imh0dHA6In0sInR5cGUiOiJ3ZWJfc2VydmljZV9iaW5kaW5nIiwidmVyc2lvbiI6MX0sImNsaWVudCI6eyJuYW1lIjoia2V5YmFzZS5pbyBnbyBjbGllbnQiLCJ2ZXJzaW9uIjoiMS4wLjIzIn0sImN0aW1lIjoxNDk1NjgxNzcwLCJleHBpcmVfaW4iOjUwNDU3NjAwMCwibWVya2xlX3Jvb3QiOnsiY3RpbWUiOjE0OTU2ODE3NTMsImhhc2giOiJkYTdkYmNjNjczOGNmNGY3NDg3ZDMxNjgyOTZjN2ViMzUxODVlZmQ4M2Y4OWE5ZGNiNWQ1YmFlMzEzYTJjMDMwY2I4NmU5MmIyNDcxMDNkZWY0YzM5MGU0NTU1ZDU5NmFiNDQ0NjM1NjdiNmZkMTA5ZWNiNWNmMzFkNjUyNDQ1YyIsInNlcW5vIjoxMTA5MDM0fSwicHJldiI6IjVjNWJhZTA0NmY4NDU3ZDMzNGI3MzEwMGE2YzJlZGE3OTUyYTJhODZjZTIxN2M2N2Y4MGRkNGVkM2Q1Nzc0N2MiLCJzZXFubyI6NSwidGFnIjoic2lnbmF0dXJlIn2jc2lnxEA6HtA8qZiHHveysPgUImXwdcSN5+fyY5+7b6C6ZsDI0cbroGJStxmbCpI7rdFnvHJru4Xp4Fxhdn94soqAZnoPqHNpZ190eXBlIKRoYXNogqR0eXBlCKV2YWx1ZcQgXzrA6XZbvcXO3Ph1a3MeQuGBTuCeiER2nCb0vgMAUfujdGFnzQICp3ZlcnNpb24B
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/malina
+
+==================================================================
