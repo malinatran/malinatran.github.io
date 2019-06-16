@@ -5,13 +5,17 @@
   src: url('../assets/Malina-Regular.otf') format('opentype');
 }
 
-html, body {
+html,
+body {
   margin: 0;
   padding: 0;
   height: 100%;
 }
 
-a:hover, a:visited, a:link, a:active {
+a:hover,
+a:visited,
+a:link,
+a:active {
   text-decoration: none;
 }
 
@@ -76,7 +80,7 @@ a:hover, a:visited, a:link, a:active {
 }
 
 .headline {
-  border-bottom: 5px solid #5CD6D6;
+  border-bottom: 5px solid #5cd6d6;
   clear: both;
   color: black;
   display: inline-block;
@@ -86,7 +90,9 @@ a:hover, a:visited, a:link, a:active {
   padding-bottom: 5px;
 }
 
-#about, #email, #portfolio-about {
+#about,
+#email,
+#portfolio-about {
   color: black;
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 14px;
@@ -96,18 +102,39 @@ a:hover, a:visited, a:link, a:active {
   text-align: left;
 }
 
+#go-vegan {
+  background-color: #ffff99;
+  color: black;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1.5em;
+  padding: 20px;
+  text-align: left;
+}
+
+#go-vegan p:last-child {
+  margin-bottom: 0;
+}
+
+#go-vegan a {
+  color: #196f8f;
+}
+
 #about .spotlighted {
-  font-color: black;
+  color: black;
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: 400;
 }
 
-#about a, #portfolio-about a {
+#about a,
+#portfolio-about a {
   border-bottom: 2px solid #ffff99;
   color: black;
 }
 
-#about a:hover, #portfolio-about a:hover {
+#about a:hover,
+#portfolio-about a:hover {
   background-color: #ffff99;
   text-decoration: none;
 }
@@ -209,7 +236,8 @@ img {
   margin-right: 10px;
 }
 
-.code-link, .code-link:visited {
+.code-link,
+.code-link:visited {
   border-bottom: 2px solid #ccffff;
   color: black;
   font-style: italic;
@@ -269,7 +297,7 @@ img {
     width: 0;
     height: 3px;
     background: #cc0066;
-    transition: width .3s;
+    transition: width 0.3s;
   }
 
   .nav-links:hover::after {
@@ -324,6 +352,14 @@ img {
 }
 
 @media (max-width: 544px) {
+  #portrait {
+    display: none;
+  }
+
+  #about p {
+    margin: 0;
+  }
+
   #name {
     line-height: 150px;
   }
