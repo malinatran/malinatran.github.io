@@ -159,7 +159,7 @@ a:active {
 /* Portrait */
 
 #portrait {
-  background-image: url('../assets/malina-tran.jpg');
+  background-image: url('../assets/malina-tran.png');
   background-position: top center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -170,7 +170,7 @@ a:active {
 }
 
 #circular-portrait {
-  background-image: url('../assets/malina-tran-thumbnail.jpg');
+  background-image: url('../assets/malina-tran-thumbnail.png');
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
